@@ -29,23 +29,23 @@ A modern web platform connecting students with local home cooks for authentic re
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/AnkitDash-code/Campus_dabba_web_app.git
 ```
 2. Install dependencies:
-'''bash
+```bash
 npm install
-'''
+```
 3. Set up environment variables:
 - Create a .env.local file in the root directory.
 - Add the following variables:
-'''
+```bash
 NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
-'''
+```
 4. Start the development server:
-'''bash
+```bash
 npm run dev
-
+```
 
 ## Project Structure
 - /app - Next.js app router pages and API routes
